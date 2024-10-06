@@ -1,0 +1,9 @@
+{
+  "loginPage": {
+    "title": "LOGOWANIE",
+    "loginPlaceholder": "login",
+    "passwordPlaceholder": "hasło",
+    "forgotPassword": "zapomnialeś hasła?",
+    "buttonText": "Zaloguj"
+  }
+}
