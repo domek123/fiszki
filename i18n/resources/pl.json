@@ -5,5 +5,11 @@
     "passwordPlaceholder": "hasło",
     "forgotPassword": "zapomnialeś hasła?",
     "buttonText": "Zaloguj"
+  },
+  "homePage": {
+    "title": "Home"
+  },
+  "settingsPage": {
+    "title": "Ustawenia"
   }
 }

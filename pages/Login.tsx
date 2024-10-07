@@ -13,10 +13,12 @@ import { useTheme } from "@react-navigation/native";
 
 export const Login = ({ navigation }) => {
   const { t } = useTranslation();
-  const { login, password, setLogin, setPassword } = useLogin();
   const { colors } = useTheme();
+
+  const { login, password, setLogin, setPassword, handleLogin } = useLogin();
+
   return (
-    <SafeAreaView style={[styles.container, globalStyles.center]}>
+    <SafeAreaView style={[globalStyles.SAV, globalStyles.center]}>
       <View
         style={[
           styles.card,
@@ -54,6 +56,7 @@ export const Login = ({ navigation }) => {
             globalStyles.center,
             { backgroundColor: colors.text },
           ]}
+          onPress={() => handleLogin(navigation)}
         >
           <Text style={{ fontSize: 18, color: colors.card }}>
             {t("loginPage.buttonText")}
@@ -65,12 +68,6 @@ export const Login = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
-  container: {
-    height: "100%",
-    width: "100%",
-    padding: 10,
-    backgroundColor: "white",
-  },
   card: {
     width: "80%",
     padding: 10,
