@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "Kurs 1",
+    "description": "fiszki z ksiazki",
+    "lang": "en"
+  },
+  {
+    "id": "2",
+    "name": "Kurs 2",
+    "description": "fiszki z szkolyx",
+    "lang": "en"
+  }
+]
