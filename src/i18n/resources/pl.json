@@ -1,0 +1,22 @@
+{
+  "loginPage": {
+    "title": "LOGOWANIE",
+    "loginPlaceholder": "login",
+    "passwordPlaceholder": "hasło",
+    "forgotPassword": "zapomnialeś hasła?",
+    "buttonText": "Zaloguj"
+  },
+  "homePage": {
+    "yourCourses": "Twoje kursy"
+  },
+  "settingsPage": {
+    "title": "Ustawenia"
+  },
+  "addCourse": {
+    "title": "Dodaj kurs",
+    "courseName": "Nazwa kursu",
+    "courseDescription": "Opis kursu",
+    "courseLanguage": "Język kursu",
+    "buttonText": "Dodaj"
+  }
+}

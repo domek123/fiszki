@@ -6,6 +6,6 @@ export const myTheme = {
     card: "#F28705",
     text: "rgb(255,255,255)",
     border: "rgb(255,255,255)",
-    notification: "rgb(255, 69, 58)",
+    notification: "#EBAE2D",
   },
 };
